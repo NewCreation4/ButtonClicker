@@ -1,0 +1,67 @@
+* {
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  background-color: #FF5D00;
+}
+
+.main {
+  height: 100vh;
+  background-image: linear-gradient(#FF833C,#FF9354)
+}
+#button {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  height: 12vh;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.shown {
+  display: normal !important;
+}
+#loading {
+  position:absolute;
+  top: 50%;
+  left:40%;
+}
+#show-buildings {
+  position:absolute;
+  top: 60%;
+  left: 3%;
+}
+#buildings-back {
+  position:absolute;
+  top:95%;
+  left: 2%;
+}
+#autoclicker-title {
+  position:absolute;
+  top:10%;
+}
+.autoclicker-desc {
+  position:absolute;
+  top:18%;
+}
+#autoclicker-buy {
+  position:absolute;
+  top:26%;
+}
+.version {
+  position:absolute;
+  top:95%;
+  left:12.5%;
+}
+.note {
+  position:absolute;
+  top: 40%;
+  left: 40%;
+}
